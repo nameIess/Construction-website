@@ -1,0 +1,68 @@
+# Dependencies 📦
+node_modules/
+/.pnp
+.pnp.js
+.yarn/
+.yarn/cache
+.yarn/install-state
+.yarn/releases
+.yarn/versions
+
+# Build output & caches 🏗️
+dist/
+build/
+*.tsbuildinfo
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & secrets 🔐
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.DS_Store
+
+# IDE & editor configs 💻
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+
+# Testing & coverage 🧪
+coverage/
+.nyc_output
+htmlcov/
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+.cache
+
+# TypeScript type declarations 📄
+*.d.ts
+
+# Vite specific ⚡
+vite.config.ts-coverage
+*.launch.json
+
+# Misc artifacts 🗑️
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+npm-debug.log*
+debug.log*
+error.log*
