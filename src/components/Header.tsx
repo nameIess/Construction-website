@@ -63,7 +63,7 @@ export const Header: React.FC<HeaderProps> = ({
           <a href="#home" className="flex items-center gap-3 group">
             <div className="w-9 h-9 rounded-xl overflow-hidden bg-gradient-to-br from-[#FAF5EC] to-[#EAE0CD] border border-[#C5A059]/30 flex items-center justify-center p-1.5 shadow-sm group-hover:scale-105 transition-transform">
               <img 
-                src="/images/logo_h.png" 
+                src={`${import.meta.env.BASE_URL}images/logo_h.png`} 
                 alt="Shiva Shakthi Logo" 
                 className="w-full h-full object-contain"
                 onError={(e) => {

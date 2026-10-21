@@ -55,7 +55,7 @@ export const AboutSection: React.FC = () => {
             <div className="relative aspect-video bg-slate-900 overflow-hidden">
               <video
                 ref={videoRef}
-                src="/images/about-vid.mp4"
+                src={`${import.meta.env.BASE_URL}images/about-vid.mp4`}
                 loop
                 muted
                 autoPlay
