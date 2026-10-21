@@ -1,0 +1,8 @@
+{
+  "name": "Shiva Shakthi Constructions",
+  "description": "Premium construction and architectural services portal featuring macOS glassmorphism design, project portfolios, service catalogs, cost estimators, and client reviews.",
+  "version": "1.0.0",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
